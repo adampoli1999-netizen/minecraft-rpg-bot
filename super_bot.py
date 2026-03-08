@@ -24,6 +24,7 @@ bot = mineflayer.createBot({
     'host': 'edempo-LYaR.aternos.me',
     'port': 24575,
     'username': 'Python_Hero2'
+    'version: "1.20.1"
 })
 
 # Списки для генератора
@@ -44,5 +45,6 @@ def handle_chat(this, username, message, *args):
 # Запуск сайту та бота
 keep_alive()
 print("🚀 Сайт запущено. Бот підключається до Minecraft...")
+
 
 
