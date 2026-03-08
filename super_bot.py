@@ -21,7 +21,7 @@ def keep_alive():
 mineflayer = require('mineflayer')
 
 bot = mineflayer.createBot({
-    'host': 'edempo-LYaR.aternos.me:24575',
+    'host': 'edempo-LYaR.aternos.me',
     'port': 24575,
     'username': 'Python_Hero2'
 })
@@ -44,4 +44,5 @@ def handle_chat(this, username, message, *args):
 # Запуск сайту та бота
 keep_alive()
 print("🚀 Сайт запущено. Бот підключається до Minecraft...")
+
 
